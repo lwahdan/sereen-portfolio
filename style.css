@@ -126,12 +126,11 @@ transform: translateY(-5px);}
 
 .contact{background-color: seashell;}
 
-.projects-grid{
+.projects-grid{max-width: 2000px;
     background-color: #ffffff;
     display: flex;
-flex-direction: row;
 justify-content: center;
-align-items: center;
+flex-wrap: wrap;
 gap: 30px;}
 
 .btn{
@@ -150,7 +149,6 @@ border:none;
 .btn:hover{background-color: #de5d7d;
 transform:scale(1.1);}
 .card-image img{border-radius: 80px;
-
 width: 100%;
 object-fit: cover;
 }
@@ -160,10 +158,13 @@ object-fit: cover;
 
 .section-sub{background-color: #ffffff;}
 .pcard{
-
+flex:0 0  calc(30% - 100px) ;
+box-sizing: border-box;
     background-color: #ffffff;
 border-radius: 20px;
 overflow: hidden;
   box-shadow: 0 4px 12px rgba(0,0,0,0.03);
   border: 1px solid #f0e6e6;
 }
+
+.social-media a{text-decoration: none;}
