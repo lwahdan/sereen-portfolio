@@ -25,6 +25,8 @@ margin-bottom: 10px;}
 
 .button:hover{background-color: #555;
 transform: translateY(-5px);}
+
+
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
     margin : 0;
@@ -49,6 +51,8 @@ letter-spacing: 1px;
 margin : 0 0 20px 0 ;}
 
 .content{background-color:seashell ;}
+
+
 .abt{background-color: #ffffff;
 padding: 60px 20px;
 display: flex;
@@ -65,6 +69,8 @@ color:#222;
 margin-bottom: 25px;
 letter-spacing: 1px;
 }
+
+
  h2 {
     background-color:#ffffff;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -108,6 +114,7 @@ margin-bottom: 40px;
 letter-spacing: 1px;
 }
 
+
 .skillc{
 box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     padding : 15px 35px ;
@@ -128,7 +135,6 @@ transform: translateY(-5px);}
 .send-btn{display: block;
 margin:15px auto 0 auto ;
    font-size: 0.85rem;
- 
 background-color:#f7a3b7;
  transition: background-color 0.3s ease;
 text-decoration: none;
@@ -144,6 +150,8 @@ border:none;}
     border:5px solid seashell;
     border-radius: 6px;
 }
+
+
 .projects-grid{max-width: 2000px;
     background-color: #ffffff;
     display: flex;
@@ -164,18 +172,27 @@ text-decoration: none;
 cursor:pointer;
 border:none;
 }
+
+
 .btn:hover{background-color: #de5d7d;
 transform:scale(1.1);}
+
+
 .card-image img{border-radius: 80px;
 width: 100%;
 object-fit: cover;
 }
+
+
 .pcard:hover{
    transform:  translateY(-6px) ;
     box-shadow: 0 10px 20px rgba(222,93,125,0.13);}
 
 .section-sub{background-color: #ffffff;}
-.pcard{
+
+
+.pcard{width:100%;
+  
 flex:0 0  calc(30% - 100px) ;
 box-sizing: border-box;
     background-color: #ffffff;
@@ -186,4 +203,11 @@ overflow: hidden;
 }
 
 .social-media a{text-decoration: none;}
+
+
 .foot{background-color: seashell;}
+
+
+
+
+
